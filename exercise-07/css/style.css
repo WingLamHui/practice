@@ -1,0 +1,67 @@
+/* stylesheet for constitution.html */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@518&family=Quicksand&display=swap');
+
+body {
+  font-family: "Quicksand", "Playfair Display", "Georgia", "Times New Roman", serif;
+  font-size: 18px;
+  color: #222;
+  line-height: 1.5;
+}
+
+footer p {
+  color: #666;
+  font-size: 18px;
+}
+
+#preamble {
+  background-color: rgba(14,31,65,0.2);
+}
+
+#preamble p {
+  font-size: 24px;
+  font-style: italic;
+  text-align: center;
+  word-spacing: 4px;
+}
+
+#preamble h2 {
+  text-decoration: underline;
+  text-shadow: #FC0 1px 0 10px;
+  text-transform: uppercase;
+}
+
+#amendments h2 {
+  text-decoration: underline;
+  text-shadow: #255 1px 0 10px;
+  text-transform: uppercase;
+}
+
+.alt-bg {
+  background-color: rgba(201,53,68,0.2)
+}
+
+a:link {
+  color: rgb(14,31,65)
+}
+
+a:visited {
+  color: #555555
+}
+
+a:hover {
+  color:rgb(201, 53, 68)
+}
+
+a:active {
+  color:rgb(245, 188, 78)
+}
+
+header {
+  letter-spacing: 5px
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Playfair Display", serif;
+}
